@@ -1,0 +1,88 @@
+.statement-card {
+  height: 100%;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid rgb(24 9 60 / 7%);
+  border-radius: 8px;
+  box-shadow: 0 9px 28px rgb(24 9 60 / 5%);
+}
+.value-card {
+  height: 100%;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid rgb(24 9 60 / 7%);
+  border-radius: 8px;
+  box-shadow: 0 9px 28px rgb(24 9 60 / 5%);
+}
+.value-card h3 {
+  margin-bottom: 10px;
+  color: var(--purple);
+  font-size: 1.13rem;
+  font-weight: 700;
+}
+.value-card p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: .9rem;
+}
+.leader-image {
+  height: 470px;
+  object-fit: cover;
+  object-position: center 30%;
+}
+.statement-card {
+  padding: 33px;
+}
+.statement-card .eyebrow {
+  margin-bottom: 10px;
+}
+.statement-card h2 {
+  margin: 0 0 12px;
+  color: var(--purple);
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+.statement-card p {
+  margin: 0;
+  color: var(--muted);
+}
+.leader-quote {
+  margin: 20px 0;
+  padding-left: 20px;
+  color: var(--purple-mid);
+  border-left: 3px solid var(--gold);
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.leader-signature {
+  color: var(--purple);
+  font-size: .92rem;
+}
+.value-card {
+  padding: 24px;
+}
+.value-card > i {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: var(--purple-mid);
+  font-size: 1.8rem;
+}
+.value-card h3 {
+  font-size: 1rem;
+}
+.value-card p {
+  font-size: .83rem;
+}
+@media (max-width: 767.98px) {
+  .leader-image {
+    height: 390px;
+  }}
+@media (max-width: 575.98px) {
+  .statement-card {
+    padding: 22px;
+  }
+  .value-card {
+    padding: 22px;
+  }}
